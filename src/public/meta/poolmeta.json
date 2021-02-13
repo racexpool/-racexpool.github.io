@@ -3,5 +3,5 @@
     "ticker": "RACEX",
     "homepage": "https://racexpool.com/",
     "description": "Inspired on high performance cars, our stake pool is secure, fast, high available and cloud native.",
-    "extended": "https://racexpool.com/extended-poolmeta.json"
+    "extended": "https://racexpool.com/meta/extended-poolmeta.json"
 }
