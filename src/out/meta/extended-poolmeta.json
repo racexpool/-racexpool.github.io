@@ -4,8 +4,8 @@
         "witness": ""
     },
     "adapools": {
-        "url_png_icon_64x64": "https://www.racexpool.com/images/logo-64x64.png",
-        "url_png_logo": "https://www.racexpool.com/images/logo.png",
+        "url_png_icon_64x64": "https://racexpool.com/images/logo-64x64.png",
+        "url_png_logo": "https://racexpool.com/images/logo.png",
         "location": "Dublin, Ireland",
         "social": {
             "twitter_handle": "racexpool",
