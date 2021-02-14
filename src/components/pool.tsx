@@ -7,21 +7,28 @@ const Pool = () => {
     <section>
       <div>
         <h2 className="mb-8 text-4xl md:text-5xl font-bold tracking-tighter leading-tight">
-          Pool Performance
+          Pool Info
         </h2>
         { isLoading ? (
           <span>Loading...</span>
         ) : (
           <>
           <div>
-            <h4 className="text-2xl">Pool ID</h4>
-            <small>{data?.response.data.pool_id}</small>
+            {/* <h4 className="text-2xl">Pool ID</h4>
+            <small>{data?.response.data.pool_id}</small> */}
+            <div>
+              <p>
+                <span className="mb-8 text-3xl md:text-5xl font-bold tracking-tighter leading-tight">
+                  {data?.response.data.ticker_orig}
+                </span> Ticker
+              </p>
+            </div>
             <div className="grid grid-cols-2 md:grid-cols-4 md:col-gap-8 lg:col-gap-16">
               <div>
                 <p>
                   <span className="mb-8 text-2xl md:text-5xl font-bold tracking-tighter leading-tight">
                     {data?.response.data.roa_lifetime}%
-                  </span> ROA (Return of ADA)
+                  </span> ROA <small>(Return of ADA)</small>
                 </p>
               </div>
               <div>

@@ -14,7 +14,7 @@ const Extra = () => {
               ADAPools.org
             </a>
           </div>
-          <div className="inline-flex px-2 py-3">
+          <div className="inline-flex pl-5 px-2 py-4">
             <p>OR</p>
           </div>
           <div className="ml-3 inline-flex rounded-md shadow">
