@@ -3,11 +3,14 @@ import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
 import Intro from '../components/intro'
 import Stake from '../components/stake'
+import Pool from '../components/pool'
+import Extra from '../components/extra'
 import Layout from '../components/layout'
 import { getPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../types/post'
+import { report } from 'process'
 
 type Props = {
   allPosts: {
@@ -19,6 +22,7 @@ type Props = {
 const Index = ({ allPosts }: Props) => {
   const heroPost = allPosts.hero
   const morePosts = allPosts.stories
+
   return (
     <>
       <Layout>
@@ -28,6 +32,7 @@ const Index = ({ allPosts }: Props) => {
         <Container>
           <Intro />
           <Stake />
+          <Pool />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -39,6 +44,7 @@ const Index = ({ allPosts }: Props) => {
             />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          <Extra />
         </Container>
       </Layout>
     </>
