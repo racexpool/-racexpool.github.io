@@ -28,6 +28,14 @@ const Index = ({ allPosts }: Props) => {
       <Layout>
         <Head>
           <title>RaceX - Cardano ADA Stake Pool</title>
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@racexpool" />
+          <meta
+            name="og:description"
+            content={`Inspired on high performance cars, our Cardano ADA Stake Pool is secure, fast, 
+            high available and cloud native. All to bring you the best rewards possible.`}
+          />
+          <meta property="og:image" content="/assets/blog/welcome/cover.jpeg" />
         </Head>
         <Container>
           <Intro />

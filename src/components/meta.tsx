@@ -32,12 +32,6 @@ const Meta = () => {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
-        name="description"
-        content={`Inspired on high performance cars, our Cardano ADA Stake Pool is secure, fast, 
-        high available and cloud native. All to bring you the best rewards possible.`}
-      />
-      <meta property="og:image" content="/favicon/apple-touch-icon.png" />
       <meta name="apple-mobile-web-app-title" content="RaceX Pool"></meta>
       <meta name="apple-mobile-web-app-capable" content="yes"></meta>
       <meta name="apple-mobile-web-app-status-bar-style" content="default"></meta>
