@@ -38,6 +38,9 @@ const Post = ({ post, morePosts, preview }: Props) => {
                 </title>
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@racexpool" />
+                <meta name="twitter:title" content={"RaceX - ADA Stake Pool | " + post.title} />
+                <meta name="twitter:description" content={post.excerpt} />
+                <meta name="twitter:image" content={post.ogImage.url} />
                 <meta property="og:image" content={post.ogImage.url} />
                 <meta property="og:title" content={"RaceX - ADA Stake Pool | " + post.title} />
                 <meta property="og:description" content={post.excerpt} />
