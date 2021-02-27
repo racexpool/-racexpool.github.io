@@ -1,7 +1,7 @@
 {
     "name": "RaceX ADA Stake Pool",
     "ticker": "RACEX",
-    "description": "Inspired on high performance cars, our stake pool is secure, fast, high available and cloud native.",
+    "description": "Inspired by high-performance cars, our stake pool is secure, fast, high available and cloud native.",
     "homepage": "https://racexpool.com/",
     "nonce": "1613501163",
     "extended": "https://racexpool.com/meta/extended-poolmeta.json"

@@ -1,6 +1,6 @@
 ---
-title: 'Welcome to your high performance stake pool'
-excerpt: 'Inspired on high performance cars, our stake pool is secure, fast, high available and cloud native. All to bring you the best rewards possible.'
+title: 'Welcome to your high-performance stake pool'
+excerpt: 'Inspired by high-performance cars, our stake pool is secure, fast, high available and cloud native. All to bring you the best rewards possible.'
 coverImage: '/assets/blog/welcome/cover.jpeg'
 date: '2021-02-13T02:24:00.322Z'
 author:
@@ -11,9 +11,9 @@ ogImage:
 hero: true
 ---
 
-**RaceX Pool** is inspired on high performance cars, because we love it and many of the concepts to build a super cars is also true to our Stake pool.
+**RaceX Pool** is inspired by high-performance cars because we love it and many of the concepts to build a supercar is also true to our Stake pool.
 
-Our main missing is to contribute with Cardano's blockchain, by staking our rewards and our delagator's ADA, to garantee the security of the network.
+Our main missing is to contribute to Cardano's blockchain, by staking our rewards and our delegator's ADA, to guarantee the security of the network.
 
 ## Nodes
 

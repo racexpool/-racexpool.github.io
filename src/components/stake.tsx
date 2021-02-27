@@ -20,16 +20,6 @@ const Stake = () => {
           </svg>
           with us
         </h1>
-        <h2 className="text-3xl md:text-7xl font-bold tracking-tight md:tracking-tighter leading-tight">
-          0% margin
-        </h2>
-        <span>
-          + 340 ADA min fee.
-        </span>
-        <p>
-          * Margin fee until 2M ADA after 2%.
-        </p>
-        <br/>
       </div>
     </section>
   )
