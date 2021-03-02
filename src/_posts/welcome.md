@@ -13,7 +13,7 @@ hero: true
 
 **RaceX Pool** is inspired by high-performance cars because we love it and many of the concepts to build a supercar is also true to our Stake pool.
 
-Our main missing is to contribute to Cardano's blockchain, by staking our rewards and our delegator's ADA, to guarantee the security of the network.
+Our main mission is to contribute to Cardano's blockchain, by staking our rewards and our delegator's ADA, to guarantee the security of the network.
 
 ## Nodes
 
